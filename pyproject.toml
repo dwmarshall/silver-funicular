@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "video-poker"
+version = "0.1.0"
+description = "Some video poker stuff"
+authors = ["David Marshall <dmarshall@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
